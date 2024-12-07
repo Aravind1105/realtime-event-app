@@ -1,0 +1,123 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #ffffff;
+  border-radius: 1.2rem;
+  width: 90%;
+  max-width: 40rem;
+  padding: 2rem;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #888;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.event-id {
+  font-size: 1rem;
+  color: #777;
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.event-info p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.joiners {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.going-message {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.action-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-selection {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 18rem;
+}
+
+.btn-selection:hover {
+  background-color: #218838;
+}
+
+.btn-selection:active {
+  background-color: #1e7e34;
+}
+
+.change-mind-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.unjoin-link {
+  color: #ff7043;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.unjoin-link:hover {
+  text-decoration: underline;
+}

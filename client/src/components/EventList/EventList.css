@@ -1,0 +1,8 @@
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+}

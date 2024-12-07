@@ -1,0 +1,26 @@
+# Ignore Python virtual environments
+venv/
+.env
+
+.pytest_cache/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
+
+# Ignore dependencies (e.g., from pip)
+*.egg-info/
+*.dist-info/
+
+# Ignore other config files (for IDEs)
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

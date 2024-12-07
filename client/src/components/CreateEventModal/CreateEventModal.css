@@ -1,0 +1,107 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  padding: 3rem;
+  border-radius: 1rem;
+  width: 35rem;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.modal h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.modal label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.modal input {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.date-time-picker {
+  display: flex;
+  align-items: center;
+}
+
+.date-time-picker input {
+  flex: 1;
+}
+
+.calendar-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #555;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-button {
+  background-color: #ff6b6b;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.create-button {
+  background-color: #4caf50;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.cancel-button:hover,
+.create-button:hover {
+  opacity: 0.8;
+}
+
+.message-input {
+  width: 100%;
+  min-height: 7rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #333;
+  border: 0.2rem solid #ddd;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.messsage-input:focus {
+  border-color: #4caf50;
+  outline: none;
+}

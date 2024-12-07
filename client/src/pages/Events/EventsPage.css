@@ -1,0 +1,26 @@
+.no-events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+  color: #555;
+}
+
+.no-events p {
+  font-size: 1.2rem;
+  background: #f8f9fa;
+  padding: 1rem 1.5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.no-events span {
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.no-events span:hover {
+  text-decoration: underline;
+}
